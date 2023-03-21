@@ -1,3 +1,41 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0;
+    padding: 17px 0;
+    height: 90px;
+
+    nav {
+        background-color: transparent;
+        padding: 20px 0;
+
+        .navbar-toggler {
+            background-color: #fff;
+        }
+
+        .container {
+            justify-content: end;
+
+        }
+    }
+
+
+
+}
+
+#offcanvasNavbar-expand-lg {
+    background-color: #161616;
+
+    .offcanvas-header {
+        justify-content: end;
+
+        button {
+            background-color: #fff;
+        }
+    }
+}
+
 .navbar-item {
     gap: 50px;
     text-transform: uppercase;
@@ -12,5 +50,23 @@
         letter-spacing: 0.09em;
         text-align: center;
         color: #fff;
+
+        &:hover {
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    header {
+        position: static;
+        padding: 6px 0;
+        height: auto;
+
+        nav {
+            background-color: transparent;
+            padding: 20px 0;
+            color: #000;
+        }
     }
 }

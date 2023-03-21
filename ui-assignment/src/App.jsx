@@ -4,6 +4,8 @@ import About from "./Components/Pages/About";
 import Contact from "./Components/Pages/Contact";
 import Home from "./Components/Pages/Home";
 import Service from "./Components/Pages/Service";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import "./App.scss";
 function App() {
   return (
